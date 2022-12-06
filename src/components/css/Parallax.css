@@ -1,0 +1,21 @@
+#parallax {
+    background-image: url("/public/parallax-bg.jpg");
+    height: 52.8rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.parallax div{
+    margin-top: 10em;
+}
+ h3{
+    text-align: left;
+    color: white;
+ }
+
+#Pbtn{
+    margin-top: 25em;
+    background: linear-gradient(to right top, #fdbe25, #fec928, #ffd42b, #ffdf31, #ffea37);      
+}

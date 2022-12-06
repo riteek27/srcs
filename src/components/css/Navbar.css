@@ -1,0 +1,31 @@
+#btn{
+    border: 1px solid;
+    border-radius:2em;
+    margin: 0.5em;
+    color: black;
+    background: linear-gradient(to right top, #fdbe25, #fec928, #ffd42b, #ffdf31, #ffea37);      
+}
+
+Button{
+    text-decoration: none
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 850px) {
+    MenuIcon{
+        display: block;
+    }
+    .nav-bar {
+        display: none;
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+}
